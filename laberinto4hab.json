@@ -1,0 +1,15 @@
+{"forma":"rectangulo",
+"puertas":[[1,"Norte",2,"Sur"],[1,"Este",3,"Oeste"],[2,"Este",4,"Oeste"],[3,"Norte",4,"Sur"]
+	],
+"laberinto":[
+	{"em":"contenedor","tipo":"habitacion","hijos":[
+		{"em":"contenedor","tipo":"armario","hijos":[]}
+	]},
+	{"em":"contenedor","tipo":"habitacion","hijos":[]},
+	{"em":"contenedor","tipo":"habitacion","hijos":[
+		{"em":"hoja","tipo":"bomba"}
+		]},
+	{"em":"contenedor","tipo":"habitacion","hijos":[]}
+	],
+"bichos":[["agresivo",1]]
+}
